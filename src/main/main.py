@@ -39,7 +39,6 @@ print(asciiart)
 log('LOG', '1', 'Starting menu.')
 
 token = gettoken()
-os.system('cls')
 print(asciiart)
 valid, masked = verifytoken(token)
 
