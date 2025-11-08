@@ -13,4 +13,7 @@ def _now():
 def log(lvl: str, code: str, msg: str) -> None:
     """Append [ LVL: CODE ] MSG to daily log file."""
     with LOGFILE.open("a", encoding="utf-8", buffering=1) as f:  # line buffering
+
         f.write(f"[ {lvl}: {code} ] {msg}\n")
+
+# Update checking, if this file updates locally, then the updater.py works!
