@@ -1,0 +1,1 @@
+import os;os.system('cls && title .verifier by нулевой && chcp 65001 >nul')

@@ -1,0 +1,1 @@
+import os;os.system('mode con cols=89 lines=25')
